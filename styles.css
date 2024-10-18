@@ -1,0 +1,85 @@
+/* Estilo del body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
+    background-color: black;
+    color: white;
+}
+
+/* Estilo del encabezado */
+header {
+    background: #2a2a29; /* Color verde */
+    color: blanchedalmond;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo de la navegación */
+nav {
+    background: green; /* Color gris oscuro */
+    color: white;
+    width: 300px; /* Ancho fijo o porcentaje */
+    margin: 20px auto; /* Centrar el nav y agregar espacio superior e inferior */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background: #555; /* Color gris más claro al pasar el ratón */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+
+
+
+h2 {
+    color: #4CAF50;   
+}
+
+h3{
+    color: #4CAF50;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #2a2a29; 
+    color: blanchedalmond;
+    position: relative; 
+    width: 100%;
+    margin-top: 20px; 
+}
+
+/* Estilo para la tabla */
+table {
+    width: 50%; 
+    border-collapse: collapse; 
+    margin: 20px 0; 
+    border-color: white;
+    background-color: #555;
+}
+
+.Auto{
+    width: 300px;
+    height: 200px;
+    
+}
+
+.Medico{
+    width: 300px;
+    height: 200px;
+      
+}
+
+.Chat{
+    width: 300px;
+    height: 200px;
+    
+}
