@@ -1,4 +1,4 @@
-/* Estilo del body */
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.7;
@@ -6,34 +6,36 @@ body {
     color: white;
 }
 
-/* Estilo del encabezado */
+
 header {
-    background: #2a2a29; /* Color verde */
+    background: #2a2a29; 
     color: blanchedalmond;
     padding: 20px;
     text-align: center;
 }
 
-/* Estilo de la navegación */
+
 nav {
-    background: green; /* Color gris oscuro */
+    background: green; 
     color: white;
-    width: 300px; /* Ancho fijo o porcentaje */
-    margin: 20px auto; /* Centrar el nav y agregar espacio superior e inferior */
-    padding: 10px; /* Espaciado interno */
-    border-radius: 8px; /* Bordes redondeados */
+    width: 300px; 
+    margin: 20px auto; 
+    padding: 10px; 
+    border-radius: 8px; 
     
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 10px;
+    
 }
 
 nav ul li a:hover {
-    background: #555; /* Color gris más claro al pasar el ratón */
-    border-radius: 5px; /* Bordes redondeados */
+    background: #555; 
+    border-radius: 5px; 
+    
 }
 
 
@@ -57,7 +59,7 @@ footer {
     margin-top: 20px; 
 }
 
-/* Estilo para la tabla */
+
 table {
     width: 50%; 
     border-collapse: collapse; 
@@ -81,5 +83,22 @@ table {
 .Chat{
     width: 300px;
     height: 200px;
+    
+}
+
+.Fondo{
+        margin: 20px;
+        padding: 10px;
+        background-color: black;
+        color: white;
+        height: 350px;
+        
+    
+    
+}
+
+.Robot{
+    width: 500px;
+    height: 300px;
     
 }
